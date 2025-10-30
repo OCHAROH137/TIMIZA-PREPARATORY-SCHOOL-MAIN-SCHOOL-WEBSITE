@@ -146,7 +146,7 @@ const Admissions = () => {
               </CardContent>
             </Card>
 
-            {/* Downloads */}
+            {/* Download */}
             <Card className="border-none shadow-card bg-primary text-white">
               <CardContent className="p-6 sm:p-8">
                 <h3 className="font-heading text-lg sm:text-xl font-bold mb-4">
