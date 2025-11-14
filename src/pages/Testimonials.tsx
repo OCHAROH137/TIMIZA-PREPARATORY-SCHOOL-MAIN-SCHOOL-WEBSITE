@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
-import testimonialsHero from "@/assets/testimonials-hero.jpg";
+import testimonialsHero from "@/assets/grade3.jpg";
 import sarahKimani from "@/assets/testimonials/sarah-kimani.jpg";
 import jamesOmondi from "@/assets/testimonials/james-omondi.jpg";
 import graceWanjiru from "@/assets/testimonials/grace-wanjiru.jpg";
@@ -13,63 +13,43 @@ import maryWambui from "@/assets/testimonials/mary-wambui.jpg";
 
 const testimonials = [
   {
-    name: "Mrs. Sarah Kimani",
+    name: "Mrs. Sarah ",
     role: "Parent - Grade 5",
     text: "Timiza Preparatory School has been a blessing to our family. The teachers are dedicated, and the curriculum is well-balanced. My daughter has grown tremendously in confidence and academic ability since joining this school.",
     rating: 5,
     image: sarahKimani
   },
   {
-    name: "Mr. James Omondi",
+    name: "Mr. James ",
     role: "Parent - Grade 3 & PP2",
     text: "I have two children at Timiza, and I couldn't be happier with the education they're receiving. The school's focus on character development alongside academics is exactly what we were looking for. The teachers genuinely care about each child's progress.",
     rating: 5,
     image: jamesOmondi
   },
   {
-    name: "Mrs. Grace Wanjiru",
+    name: "Mrs. Grace ",
     role: "Parent - Grade 7",
     text: "The transition to junior secondary has been seamless thanks to Timiza's excellent preparation. The facilities are modern, and the CBC curriculum is implemented perfectly. My son is well-prepared for his future.",
     rating: 5,
     image: graceWanjiru
   },
   {
-    name: "Mr. Peter Mwangi",
+    name: "Mr. Peter ",
     role: "Parent - Grade 1",
     text: "As a first-time parent in the school system, I was nervous about choosing the right school. Timiza exceeded all my expectations. The communication from teachers is excellent, and my daughter loves going to school every day.",
     rating: 5,
     image: peterMwangi
   },
   {
-    name: "Mrs. Jane Njeri",
+    name: "Mrs. Jane ",
     role: "Parent - PP1",
     text: "The pre-school program at Timiza is outstanding. My son has developed so much in just one term - from his motor skills to his social interactions. The play-based learning approach really works!",
     rating: 5,
     image: janeNjeri
   },
+  
   {
-    name: "Mr. David Kamau",
-    role: "Parent - Grade 6",
-    text: "I appreciate the holistic approach to education at Timiza. It's not just about academics - the sports programs, clubs, and character-building activities create well-rounded children. Highly recommend this school.",
-    rating: 5,
-    image: davidKamau
-  },
-  {
-    name: "Mrs. Lucy Akinyi",
-    role: "Parent - Grade 4",
-    text: "The dedication of the staff at Timiza is remarkable. They go above and beyond to ensure every child succeeds. The school has a warm, family-like atmosphere that makes both parents and children feel welcome.",
-    rating: 5,
-    image: lucyAkinyi
-  },
-  {
-    name: "Mr. Robert Otieno",
-    role: "Parent - Grade 8",
-    text: "Timiza has prepared my daughter exceptionally well for high school. The academic standards are high, but the support system ensures no child is left behind. The investment in this school is worth every shilling.",
-    rating: 5,
-    image: robertOtieno
-  },
-  {
-    name: "Mrs. Mary Wambui",
+    name: "Mrs. Mary ",
     role: "Parent - Grade 2",
     text: "The values instilled at Timiza align perfectly with what we teach at home. The school emphasizes respect, integrity, and hard work. I've seen positive changes in my child's behavior and attitude towards learning.",
     rating: 5,

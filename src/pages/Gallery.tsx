@@ -1,12 +1,29 @@
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import galleryHero from "@/assets/gallery-hero.jpg";
-import computerLab from "@/assets/computer-lab.jpg";
-import scienceLab from "@/assets/science-lab.jpg";
-import library from "@/assets/library.jpg";
-import sportsField from "@/assets/sports-field.jpg";
-
+import galleryHero from "@/assets/ruma12.jpeg";
+import computerLab from "@/assets/complab.jpg";
+import scienceLab from "@/assets/g2.jpg";
+import music10 from "@/assets/music10.jpeg";
+import music11 from "@/assets/music11.jpeg";
+import music12 from "@/assets/music12.jpeg";
+import music13 from "@/assets/music13.jpeg";
+import music14 from "@/assets/music14.jpeg";
+import music15 from "@/assets/music15.jpeg";
+import music16 from "@/assets/music 16.jpeg";
+import music17 from "@/assets/music 17.jpeg";
+import library from "@/assets/drama.jpg";
+import primary12 from "@/assets/primary 12.jpeg";
+import school11 from "@/assets/learner2.jpg";
+import sportsField from "@/assets/schoolteam.jpg";
+import swim10 from "@/assets/swim10.jpeg";
+import football10 from "@/assets/football10.jpg";
+import ruma10 from "@/assets/ruma10.jpeg";
+import drama10 from "@/assets/drama10.jpeg";
+import footpitch from "@/assets/footpitch.jpg";
+import gals from "@/assets/gals.jpg";
+import boys from "@/assets/boys.jpg";
+import pp2 from "@/assets/pp2.jpg";
 const categories = [
   "All",
   "Academics",
@@ -18,13 +35,30 @@ const categories = [
 
 const galleryItems = [
   { id: 1, image: computerLab, title: "ICT Laboratory", category: "Facilities" },
-  { id: 2, image: scienceLab, title: "Science Practical", category: "Academics" },
-  { id: 3, image: library, title: "Library Reading Time", category: "Facilities" },
-  { id: 4, image: sportsField, title: "Football Match", category: "Sports" },
-  { id: 5, image: computerLab, title: "Coding Class", category: "Clubs" },
-  { id: 6, image: scienceLab, title: "Chemistry Experiment", category: "Academics" },
-  { id: 7, image: sportsField, title: "Sports Day", category: "Events" },
-  { id: 8, image: library, title: "Book Week", category: "Events" }
+  { id: 2, image: primary12, title: "Outdoor Activities", category: "Academics" },
+  { id: 3, image: school11, title: "Outdoor Activities", category: "Academics" },
+  { id: 4, image: scienceLab, title: "Agriculture Practical", category: "Academics" },
+  { id: 5, image: library, title: "Drama festivals", category: "Clubs" },
+  { id: 6, image: sportsField, title: "Football Match", category: "Sports" },
+  { id: 7, image: computerLab, title: "Coding Class", category: "Clubs" },
+  { id: 8, image: scienceLab, title: "Intergrated Science practical", category: "Academics" },
+  { id: 9, image: football10, title: "Soccer Training", category: "Sports" },
+  { id: 10, image: swim10, title: "Outdoor Activities", category: "Academics" },
+  { id: 11, image: music10, title: "Drama festivals", category: "Events" },
+  { id: 12, image: music11, title: "Music festivals", category: "Events" },
+  { id: 13, image: music12, title: "Music festivals", category: "Events" },
+  { id: 14, image: music13, title: "Music festivals", category: "Events" },
+  { id: 15, image: music14, title: "Music festivals", category: "Events" },
+  { id: 16, image: music15, title: "Music festivals", category: "Events" },
+  { id: 17, image: music16, title: "Music festivals", category: "Events" },
+  { id: 18, image: music17, title: "Music festivals", category: "Events" },
+  { id: 19, image: ruma10, title: "Academic Trips", category: "Academics" },
+  { id: 20, image: drama10, title: "Drama festivals", category: "Events" },
+  { id: 21, image: footpitch, title: "Football Pitch", category: "Facilities" },
+  { id: 22, image: gals, title: "Break Sessions", category: "Events" },
+  { id: 23, image: boys, title: "Break Sessions", category: "Events" },
+  { id: 24, image: pp2, title: "Break Sessions", category: "Events" },
+ 
 ];
 
 const Gallery = () => {

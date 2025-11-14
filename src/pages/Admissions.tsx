@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, CheckCircle } from "lucide-react";
-import admissionsHero from "@/assets/pp2.jpg";
+import admissionsHero from "@/assets/learner1.jpg";
 
 const admissionsSections = {
   preschool: {

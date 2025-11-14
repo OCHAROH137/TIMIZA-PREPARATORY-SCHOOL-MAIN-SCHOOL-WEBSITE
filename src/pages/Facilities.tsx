@@ -1,11 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Laptop, FlaskRound, BookOpen, Dumbbell, Music, Bus, GraduationCap, Utensils } from "lucide-react";
 import computerLab from "@/assets/complab.jpg";
-import scienceLab from "@/assets/science-lab.jpg";
+import scienceLab from "@/assets/Jnr.jpeg";
 import  dorm from "@/assets/dorm.jpg";
+import drama22 from "@/assets/drama22.jpg"; 
 import transport1 from "@/assets/bus.jpg";
 import dining from "@/assets/dh.jpg";
-import classroom1 from "@/assets/class.jpg";
+import classroom1 from "@/assets/class10.jpeg";
 import sportsField from "@/assets/schoolteam2.jpg";
 import facilitiesHero from "@/assets/swing.jpg";
 
@@ -49,7 +50,7 @@ const facilities = [
     icon: Music,
     title: "Music & Drama Room",
     description: "Dedicated space for music lessons and drama rehearsals, complete with musical instruments and a small stage for performances. We nurture artistic talents and creativity.",
-    image: null,
+    image: drama22,
     features: ["Musical Instruments", "Performance Stage", "Sound System", "Drama Props"]
   },
   {

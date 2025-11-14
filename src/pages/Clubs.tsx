@@ -3,14 +3,45 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import clubsHero from "@/assets/st.jpg";
-import musicClub from "@/assets/clubs/music-club.jpg";
-import dramaClub from "@/assets/clubs/drama-club.jpg";
-import debateClub from "@/assets/clubs/debate-club.jpg";
-import scoutsClub from "@/assets/clubs/scouts-club.jpg";
-import computerClub from "@/assets/clubs/computer-club.jpg";
+import musicClub from "@/assets/music.jpg";
+import dramaClub from "@/assets/drama.jpg";
+import debateClub from "@/assets/music.jpg";
+import scoutsClub from "@/assets/scouts5.jpg";
+import computerClub from "@/assets/complab.jpg";
 import chessClub from "@/assets/clubs/chess-club.jpg";
-import footballClub from "@/assets//stwo.jpg";
+import footballClub from "@/assets/schoolteam.jpg";
 import redcrossClub from "@/assets/clubs/redcross-club.jpg";
+import galleryHero from "@/assets/ruma12.jpeg";
+import computerLab from "@/assets/complab.jpg";
+import scienceLab from "@/assets/g2.jpg";
+import music10 from "@/assets/music10.jpeg";
+import music11 from "@/assets/music11.jpeg";
+import music12 from "@/assets/music12.jpeg";
+import music13 from "@/assets/music13.jpeg";
+import music14 from "@/assets/music14.jpeg";
+import music15 from "@/assets/music15.jpeg";
+import music16 from "@/assets/music 16.jpeg";
+import music17 from "@/assets/music 17.jpeg";
+import library from "@/assets/drama.jpg";
+import primary12 from "@/assets/primary 12.jpeg";
+import school11 from "@/assets/school11.jpeg";
+import sportsField from "@/assets/schoolteam.jpg";
+import swim10 from "@/assets/swim10.jpeg";
+import football10 from "@/assets/football10.jpg";
+import ruma10 from "@/assets/ruma10.jpeg";
+import galfoot1 from "@/assets/schoolteam2.jpg";
+import drama10 from "@/assets/drama10.jpeg";
+import drama21 from "@/assets/drama21.jpg";
+import drama22 from "@/assets/drama22.jpg";
+import scout5 from "@/assets/scouts5.jpg";
+import scout2 from "@/assets/scouts2.jpg";
+import scout3 from "@/assets/scouts3.jpg";
+import scout14 from "@/assets/school14.jpeg";
+import schoolteam2 from "@/assets/schoolteam2.jpg";
+import footpitch from "@/assets/footpitch.jpg";
+import gals from "@/assets/gals.jpg";
+import boys from "@/assets/boys.jpg";
+import pp2 from "@/assets/pp2.jpg";
 
 const clubs = [
   {
@@ -20,7 +51,7 @@ const clubs = [
     fullDescription: "Our Music Club provides a comprehensive musical education where students explore various instruments, participate in choirs, and learn music theory. We organize regular performances and concerts.",
     activities: ["Instrumental Training", "Choir Practice", "Music Theory", "Performances & Concerts"],
     achievements: ["Regional Music Festival Winners 2024", "Annual Concert Excellence", "Inter-school Competition Champions", "Talented performers in piano, guitar, and drums"],
-    gallery: [musicClub, musicClub, musicClub, musicClub]
+    gallery: [music13, music11, music12, music16]
   },
   {
     name: "Drama Club",
@@ -29,8 +60,20 @@ const clubs = [
     fullDescription: "The Drama Club nurtures theatrical talent and creative expression through regular rehearsals, performances, and dramatic arts education. Students develop confidence, public speaking, and acting skills.",
     activities: ["Theater Productions", "Acting Workshops", "Script Writing", "Stage Management"],
     achievements: ["Best School Play Award 2024", "Outstanding Director Recognition", "Regional Drama Competition Finalists", "Multiple successful stage productions"],
-    gallery: [dramaClub, dramaClub, dramaClub, dramaClub]
+    gallery: [dramaClub, drama10, drama21, drama22]
   },
+
+  {
+    name: "Football Club",
+    image: footballClub,
+    description: "Promote teamwork, fitness, and sportsmanship through competitive football training.",
+    fullDescription: "The Football Club develops athletic skills, teamwork, and competitive spirit. Students receive professional coaching and participate in inter-school leagues and tournaments.",
+    activities: ["Training Sessions", "Inter-school Matches", "Fitness Training", "Tournament Participation"],
+    achievements: ["County Champions 2024", "Best Discipline Team Award", "Regional Tournament Semi-Finalists", "Outstanding Goal Scorers"],
+    gallery: [footballClub, schoolteam2, footballClub, footballClub]
+  },
+
+
   {
     name: "Debate Club",
     image: debateClub,
@@ -47,7 +90,7 @@ const clubs = [
     fullDescription: "The Scouts Club focuses on character development, outdoor skills, and community service. Students learn camping, first aid, leadership, and environmental conservation.",
     activities: ["Outdoor Camping", "Survival Skills", "Community Service", "Leadership Training"],
     achievements: ["Best Scout Troop Award 2024", "Community Service Excellence", "National Jamboree Participants", "Environmental Conservation Projects"],
-    gallery: [scoutsClub, scoutsClub, scoutsClub, scoutsClub]
+    gallery: [scout5, scout14, scout3, scout2]
   },
   {
     name: "Computer Club",
@@ -68,7 +111,7 @@ const clubs = [
     gallery: [chessClub, chessClub, chessClub, chessClub]
   },
   {
-    name: "Football Club",
+    name: "Skating Club",
     image: footballClub,
     description: "Promote teamwork, fitness, and sportsmanship through competitive football training.",
     fullDescription: "The Football Club develops athletic skills, teamwork, and competitive spirit. Students receive professional coaching and participate in inter-school leagues and tournaments.",
@@ -76,15 +119,7 @@ const clubs = [
     achievements: ["County Champions 2024", "Best Discipline Team Award", "Regional Tournament Semi-Finalists", "Outstanding Goal Scorers"],
     gallery: [footballClub, footballClub, footballClub, footballClub]
   },
-  {
-    name: "Red Cross Club",
-    image: redcrossClub,
-    description: "Learn first aid, health education, and community service through humanitarian activities.",
-    fullDescription: "The Red Cross Club educates students in first aid, health awareness, and humanitarian service. Members participate in health campaigns and community outreach programs.",
-    activities: ["First Aid Training", "Health Campaigns", "Community Outreach", "Disaster Preparedness"],
-    achievements: ["Best Red Cross Society 2024", "Community Health Award", "First Aid Competition Winners", "Successful Blood Donation Drives"],
-    gallery: [redcrossClub, redcrossClub, redcrossClub, redcrossClub]
-  }
+ 
 ];
 
 const Clubs = () => {

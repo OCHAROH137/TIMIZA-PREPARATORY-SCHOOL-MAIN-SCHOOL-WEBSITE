@@ -163,10 +163,10 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { image: computerLab, title: "ICT Laboratory", description: "Modern computer lab with latest technology" },
-              { image: scienceLab, title: "Science Laboratory", description: "Well-equipped for hands-on experiments" },
-              { image: transport, title: "School Transport", description: "Safe and reliable school transport service covering various routes." },
-              { image: sportsField, title: "Sports Fields", description: "Spacious grounds for various sports" }
+              { image: computerLab, title: "ICT Laboratory", description: "A modern ICT laboratory fully equipped with advanced computers, reliable internet access, and updated learning software to support research, creativity, and digital competency" },
+              { image: scienceLab, title: "Science Laboratory", description: "A fully equipped science laboratory that allows learners to explore, experiment, and discover scientific concepts through practical, real-world experiences." },
+              { image: transport, title: "School Transport", description: "A safe, comfortable, and dependable transport system offering convenient travel across multiple routes for all learners." },
+              { image: sportsField, title: "Sports Fields", description: "Well-developed sports grounds that support a wide range of athletic activities, training, and competitions." }
             ].map((facility, index) => (
               <Card key={index} className="overflow-hidden border-none shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
                 <div className="aspect-[4/3] overflow-hidden">

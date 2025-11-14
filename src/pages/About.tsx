@@ -32,9 +32,7 @@ const About = () => {
             <CardContent className="p-8">
               <h2 className="font-heading text-2xl font-bold text-secondary mb-4">Our Mission</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To provide a safe, nurturing, and stimulating learning environment that fosters academic excellence, 
-                character development, and creative thinking. We aim to equip learners with the knowledge, skills, 
-                and values necessary to become responsible global citizens.
+                To provide a learning environment for learners to exploit their talents and attain their academic exellence.
               </p>
             </CardContent>
           </Card>
@@ -43,9 +41,7 @@ const About = () => {
             <CardContent className="p-8">
               <h2 className="font-heading text-2xl font-bold text-secondary mb-4">Our Vision</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To be a leading educational institution recognized for excellence in holistic education, 
-                character formation, and innovative teaching practices that prepare learners for success 
-                in an ever-changing world.
+               Empower Learners to acquire knowledge and skills to contribute to the global world
               </p>
             </CardContent>
           </Card>
@@ -68,37 +64,37 @@ const About = () => {
                 icon: Shield,
                 letter: "D",
                 title: "Discipline",
-                description: "We instill self-control, responsibility, and respect for rules and others"
+                description: "We act in accordance to the rules and regulations"
               },
               {
                 icon: Award,
                 letter: "E",
                 title: "Excellence",
-                description: "We strive for the highest standards in all our endeavors"
+                description: "We are committed to being the best, achieve more and be great"
               },
               {
                 icon: Users,
                 letter: "T",
                 title: "Teamwork",
-                description: "We foster collaboration, cooperation, and mutual support"
+                description: "We strive to win together"
               },
               {
                 icon: Heart,
                 letter: "E",
-                title: "Empathy",
-                description: "We cultivate understanding, compassion, and kindness towards others"
+                title: "Expertise",
+                description: "We infuse competency into everything we do"
               },
               {
                 icon: BookOpen,
                 letter: "C",
-                title: "Creativity",
-                description: "We encourage innovation, imagination, and original thinking"
+                title: "Creativity and Innovation",
+                description: "We embrace original and new ideas that add value"
               },
               {
                 icon: Target,
                 letter: "T",
-                title: "Trustworthiness",
-                description: "We build integrity, honesty, and reliability in all interactions"
+                title: "Trust",
+                description: "We believe in integrity, reliability and fairness"
               }
             ].map((value, index) => (
               <Card key={index} className="border-2 border-primary/20 hover:border-primary shadow-card hover:shadow-elevated transition-all duration-300">
@@ -127,20 +123,16 @@ const About = () => {
             <h2 className="font-heading text-3xl font-bold text-secondary mb-6">Our History</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Timiza Preparatory and Junior Secondary School was established in 2009 with a vision to provide 
-                quality education that nurtures the whole child. Starting with just a handful of students, 
-                we have grown to serve over 500 learners from Playgroup to Grade 9.
+               Timiza Preparatory and Junior Secondary School has grown remarkably since its establishment and proudly celebrated its 5th anniversary this year. What began as a small institution has now become a vibrant educational community with steadily increasing learner admissions each term — a clear reflection of our commitment to quality education and holistic development.
               </p>
               <p>
-                Over the years, we have consistently maintained high academic standards while ensuring that 
-                character development remains at the core of our educational approach. Our competency-based 
-                curriculum (CBC) is designed to equip learners with 21st-century skills, critical thinking 
-                abilities, and strong moral values.
+               Over the years, we have continued to improve and expand our facilities to meet the evolving needs of our learners. Our modern classrooms, reliable transport system with school buses, and a well-structured Junior Secondary School section are part of our ongoing effort to create an enriched learning environment.
               </p>
               <p>
-                Today, Timiza School stands as a beacon of educational excellence in our community, with 
-                state-of-the-art facilities, qualified educators, and a proven track record of producing 
-                well-rounded graduates who excel in their chosen fields.
+                Beyond academics, Timiza School continues to shine in co-curricular activities. Our learners have excelled in music, drama, and football, earning recognition at various levels and building confidence, teamwork, and talent along the way.
+              </p>
+              <p>
+                Today, we stand proud of the strong foundation we have built — a school that nurtures discipline, creativity, and academic excellence, preparing our learners to thrive in every stage of life.
               </p>
             </div>
           </CardContent>
@@ -152,7 +144,7 @@ const About = () => {
             <CardContent className="p-6">
               <p className="text-sm text-muted-foreground mb-2">Registered & Accredited by</p>
               <p className="font-heading font-semibold text-secondary">Ministry of Education, Kenya</p>
-              <p className="text-xs text-muted-foreground mt-1">Registration No: XXXX/XXXX</p>
+              {/* <p className="text-xs text-muted-foreground mt-1">Registration No: XXXX/XXXX</p> */}
             </CardContent>
           </Card>
         </div>

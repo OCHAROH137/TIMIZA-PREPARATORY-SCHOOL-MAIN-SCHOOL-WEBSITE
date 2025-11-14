@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail } from "lucide-react";
-import directorJane from "@/assets/staff/head-teacher.jpg";
-import directorDavid from "@/assets/staff/director-david.jpg";
-import headTeacher from "@/assets/staff/head-teacher.jpg";
+import directoromosa from "@/assets/omosa.jpg";
+import directorfanice from "@/assets/staff/fanice.jpg";
+import headTeacher from "@/assets/staff/okwach.jpg";
 import deputyHead from "@/assets/staff/deputy-head.jpg";
 import teacherMary from "@/assets/staff/teacher-mary.jpg";
 import teacherJohn from "@/assets/staff/teacher-john.jpg";
@@ -19,78 +19,21 @@ const managementData = [
       {
         name: "Dr. Omosa Ombuna",
         position: "General Director",
-        bio: "With over 20 years of experience in educational leadership, Dr. Mwangi brings a wealth of knowledge in curriculum development and school management.",
+        bio: "With over 20 years of experience in educational leadership, Dr. Ombuna brings a wealth of knowledge in curriculum development and school management.",
         email: "director@timizaschool.ac.ke",
-        image: directorJane
+        image: directoromosa
       },
       {
         name: "Dr. Fanice Mose",
         position: "General Director",
-        bio: "Mr. Ochieng oversees the day-to-day operations of the school, ensuring smooth functioning of all departments and facilities.",
+        bio: "Dr. Fanice oversees the day-to-day operations of the school, ensuring smooth functioning of all departments and facilities.",
         email: "operations@timizaschool.ac.ke",
-        image: directorDavid
-      }
-    ]
-  },
-  {
-    category: "Senior Leadership",
-    members: [
-      {
-        name: "Mr Vincent Okwach",
-        position: "Head Teacher",
-        bio: "Mrs. Njeri leads the academic programs with 15 years of teaching and administrative experience. She is passionate about student success and teacher development.",
-        email: "headteacher@timizaschool.ac.ke",
-        image: headTeacher
-      },
-      {
-        name: "Mr. Kennedy Odhiambo",
-        position: "Deputy Head Teacher",
-        bio: "Mr. Kamau supports the Head Teacher in managing academic affairs and oversees co-curricular activities.",
-        email: "deputy@timizaschool.ac.ke",
-        image: deputyHead
+        image: directorfanice
       }
     ]
   },
 
-
-
-
-  {
-    category: "Department Heads",
-    members: [
-      {
-        name: "Mr. cso",
-        position: "Head of Languages Department",
-        bio: "Specializing in English and Kiswahili, Mrs. Wanjiru leads language instruction with innovative teaching methods.",
-        email: "languages@timizaschool.ac.ke",
-        image: teacherMary
-      },
-      {
-        name: "Mr. Head of section",
-        position: "Head of Mathematics & Sciences",
-        bio: "Mr. Kiplagat brings expertise in STEM education, promoting hands-on learning and critical thinking.",
-        email: "sciences@timizaschool.ac.ke",
-        image: teacherJohn
-      },
-      {
-        name: "Ms. Head of sectioni",
-        position: "Head of Humanities & Creative Arts",
-        bio: "Ms. Akinyi nurtures creativity and cultural awareness through social studies, music, and arts programs.",
-        email: "humanities@timizaschool.ac.ke",
-        image: teacherAnn
-      },
-      {
-        name: "Mr. Head of section",
-        position: "Head of Sports & Physical Education",
-        bio: "Mr. Rotich develops athletic programs that promote physical fitness, teamwork, and sportsmanship.",
-        email: "sports@timizaschool.ac.ke",
-        image: teacherSamuel
-      }
-    ]
-  },
-
-  
-  {
+    {
     category: "Administration",
     members: [
       {

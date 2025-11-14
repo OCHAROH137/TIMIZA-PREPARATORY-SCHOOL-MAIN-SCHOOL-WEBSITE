@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import contactHero from "@/assets/contact-hero.jpg";
+import contactHero from "@/assets/learner2.jpg";
 
 const Contact = () => {
   return (
